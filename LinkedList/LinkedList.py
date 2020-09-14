@@ -122,7 +122,7 @@ class LinkedList:
 if __name__ == "__main__":
 	List = LinkedList()
 	ch = 0
-	while(ch != 11):
+	while(ch < 11):
 		print()
 		print("1.Create")
 		print("2.Display")
