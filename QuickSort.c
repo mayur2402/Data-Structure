@@ -1,12 +1,3 @@
-/*
-	pivot = 0
-	left = pivot+1
-	right = num-1
-
-	joparyant left ha pivot peksha lahan asel aani left ha righ peksha lahan asel 
-	toparyant pudhe ja
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 
