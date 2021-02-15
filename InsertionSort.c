@@ -1,49 +1,4 @@
 /*
-    12 45 76 87 98 17 
-
-	jevha left side cha element ha aplya right side chya first element (key) peksha motha asto
-	tevha right vala element left valyachya right la thevaych
-
-	45 ha 12 peksha motha aahe mag 12 chya pudh 45 thevaycha ani pudhacha element ghyaycha
-
-	12      45 76 87 98 17 
-
-    12 45      76 87 98 17 
-
-    12 45 76      87 98 17 
-
-    12 45 76 87      98 17
-
-    12 45 76 87 98      17
-
-	jevha left side cha element ha aplya right side chya first element (key) peksha lahan asto
-	tevha left side chya element chya pudh sadhyacha element takaycha
-
-	17 ha element 98 peksha lahan aahe mag 98 sadhyachya position chya right la takaycha
-
-	17 < 98 and j >= 0  j = 4
-	12 45 76 87 _ 98
-
-	17 ha element 87 peksha lahan aahe mag 87 sadhyachya position chya right la takaycha
-
-    17 < 87 and j >= 0  j = 3
-	12 45 76 _ 87 98
-
-	17 ha element 76 peksha lahan aahe mag 76 sadhyachya position chya right la takaycha
-    17 < 76 and j >= 0  j = 2
-	12 45 _ 76 87 98
-
-	17 ha element 45 peksha lahan aahe mag 45 sadhyachya position chya right la takaycha
-    17 < 45 and j >= 0  j = 1
-	12 _ 45 76 87 98
-
-
-	12 < 17 **
-
-
-	
-    //////////////////////////////////////////////
-
     algorithm insertion(arr,n)
     begin
     for i = 1 to n do 
